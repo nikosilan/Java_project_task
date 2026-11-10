@@ -1,0 +1,3 @@
+a) An arrival event needs to generate a new arrival event because customers keep arriving at the system. The new event represents the next customer's arrival. This allows the simulation to continue creating new customers.
+
+b) The start of the service should generate a departure event. This event represents the moment when the service is finished and the customer leaves the service point.
