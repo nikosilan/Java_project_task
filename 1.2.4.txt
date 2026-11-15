@@ -1,0 +1,35 @@
+Call Centre Simulation: Clock 16 (Events B4 and B3)
+
+Phase B:
+- Event B4: Customer X2 finishes service at Operator 1 and exits the system.
+- Event B3: The router finishes processing customer X3 and sends X3 to Operator 1's queue.
+
+Phase C:
+- Operator 1 is idle, so service for X3 starts.
+- A new event B4 is scheduled at time 20.
+
+Event List:
+
+B5 – 18
+B1 – 20
+B2 – 20
+B4 – 20
+
+Results:
+
+Work complete:
+X: 2
+Y: 0
+
+Call Centre Simulation: Clock 18 (Event B5)
+
+Phase B:
+- Event B5: Customer Y1 finishes service at Operator 2 and exits the system.
+
+Results:
+
+Work complete:
+X: 2
+Y: 1
+
+The simulation stops because one customer of type Y has exited the system.
