@@ -1,0 +1,5 @@
+Ensin selvitetään, minkä ikäisiä opiskelijoita ryhmässä on ja kuinka monta prosenttia kuuluu kuhunkin ikäryhmään.
+
+Sen jälkeen ohjelma arpoo satunnaisluvun ja valitsee sen perusteella iän. Jokaisella iällä on oma mahdollisuus tulla valituksi. Jos esimerkiksi 20 % opiskelijoista on 20-vuotiaita, myös noin 20 % arvotuista opiskelijoista pitäisi olla 20-vuotiaita.
+
+Tämä arvonta tehdään 1000 kertaa. Lopuksi lasketaan, kuinka monta kertaa kukin ikä tuli arvonnassa. Tulokset eivät ole joka kerta täysin samanlaisia, koska iät arvotaan satunnaisesti.
