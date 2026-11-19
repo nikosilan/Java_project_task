@@ -1,0 +1,9 @@
+
+1. Normaalijakauma: Käytetään esimerkiksi ihmisten pituuksien kuvaamiseen. Suurin osa ihmisistä on keskipituisia.
+
+2. Binomijakauma: Käytetään esimerkiksi kolikonheitossa, kun halutaan laskea kruunien määrä usean heiton aikana.
+
+3. Eksponenttijakauma: Käytetään esimerkiksi asiakkaiden saapumisaikojen välisten aikojen mallintamiseen kaupassa.
+
+4. Poisson-jakauma: Käytetään esimerkiksi arvioimaan, kuinka monta asiakasta saapuu kauppaan tunnin aikana.
+
