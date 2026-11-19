@@ -1,0 +1,1 @@
+Singleton-luokan konstruktorissa käytetään private-määrettä, joten luokasta ei voi luoda uutta oliota suoraan new-komennolla luokan ulkopuolelta. Tällä halutaan varmistaa, että luokasta on olemassa vain yksi olio. Kun oliota tarvitaan, se haetaan getInstance()-metodin avulla. Näin ohjelman eri osat käyttävät aina samaa oliota.
