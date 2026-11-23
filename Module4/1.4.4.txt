@@ -1,0 +1,24 @@
+The simulator uses a three-phase simulation method. The main loop processes events until the simulation is finished.
+
+Initialize simulation
+Set initial system state
+Create event list
+Schedule initial events
+
+WHILE simulation is not finished:
+
+    A-phase
+    Find the next event in the event list
+    Advance simulation clock to the event time
+
+    B-phase
+    Execute all B-events scheduled for the current time
+
+    C-phase
+    REPEAT
+        Execute all possible C-events
+    UNTIL no more C-events can be executed
+
+END WHILE
+
+Print simulation results
