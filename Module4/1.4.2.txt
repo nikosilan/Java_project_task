@@ -1,0 +1,15 @@
+Task 2 – Classification of Performance Variables
+
+1. Arrival Variables
+
+These variables describe the arrival of clients into the system. For example, A tells us how many patients arrive at the health centre. The information is updated every time a new patient arrives. It helps estimate the demand for healthcare services.
+
+2. Service Point Variables
+
+These variables describe the operation and efficiency of a service point. For example, B tells us the time spent serving patients and C tells us the number of patients served. These values can be used to calculate utilization (U), throughput (X) and average service time (S).
+
+3. System-Level Variables
+
+These variables describe the operation of the whole system from the patient's point of view. For example, Rᵢ tells us the total time an individual patient spends in the system, W represents the sum of response times, R represents the average response time and N represents the average number of patients in the system.
+
+These variables help evaluate waiting times and the overall efficiency of the health centre.
